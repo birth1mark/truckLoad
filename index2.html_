@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Arrival Time :.Dachser.:</title>
+    <link href="bootstrap/css/bootstrap.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="jumbotron d-flex align-items-center">
+        <div class="container">
+            <div class="form-group" form action ="https://docs.google.com/forms/d/e/1FAIpQLSd-ToMV5Gi_wPcx1usN376d10oajMMUikXidtjt-qZuqupEcQ/formResponse" targe="_self" method="POST">
+                <label for="arrivalTime">Arrival Time - Dachser</label>
+                <input type="text" class="form-control" id="arrivalRime" name="entry.2039241929" aria-describedby="Codigo de Barras" placeholder="Ler código de barras"   autofocus="autofocus">
+                <small id="arrival time" class="form-text text-muted"></small>
+                
+                    <button type="submit" class="btn btn-primary btn-lg" >Submeter</button>
+                
+            </div>
+        </div>
+    </div>
+</body>
+</html>

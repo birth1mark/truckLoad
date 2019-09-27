@@ -1,0 +1,23 @@
+<div class="row" style="padding:40px;">
+    <p>Arrival Time - Por favor leia o código de Barras</p>
+    <br/>
+    <form action="https://docs.google.com/forms/d/e/1FAIpQLSd-ToMV5Gi_wPcx1usN376d10oajMMUikXidtjt-qZuqupEcQ/formResponse" method="post" id="application-form" target="_blank">
+      <div class="row">
+        <div class="col-md-5">
+          <div class="form-group">
+            <input type="text" name="entry.2039241929" value="" class="form-control name" id="entry.2039241929" dir="auto" aria-label="Código de Barras" aria-required="true" placeholder="Código de Barras">
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-5">
+          <div class="form-group">
+            
+      <div class="col-md-5">
+        <div class="form-group">
+          <input type="submit" id="submit" class="btn btn-custom" name="submit" value="Submit Test Form">
+        </div>
+      </div>
+      <IFRAME style="display:none" name="hidden-form"></IFRAME>  
+  </form>
+  </div>

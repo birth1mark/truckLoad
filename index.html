@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>:Chegadas Zara:</title>
+    <link href="bootstrap/css/bootstrap.css" rel="stylesheet" />
+</head>
+    <script>
+        function limpar(){
+            document.getElementById("SSCC").select();
+        }
+    </script>
+<body>
+    <div class="jumbotron d-flex align-items-center">
+        <div class="container">
+            <form action="https://docs.google.com/forms/d/e/1FAIpQLSewldAZ1NyyjBkTbpgQO_nTXw0frK0U3Wu-OUWiSNtccNsyXA/formResponse" method="post" id="application-form" target="hidden-form">
+            <div class="form-group" >
+                <label for="Matricula">Matricula</label>
+                <input type="text" class="form-control" id="Matricula" name="entry.46461677" aria-describedby="Matricula" placeholder="Preencher com matricula" >
+                <small id="arrival time" class="form-text text-muted"></small>
+				<label for="SSCC">SSCC</label>
+                <input type="text" class="form-control" id="SSCC" name="entry.551394251" aria-describedby="SSCC" placeholder="Ler Codigo de Barras"   autofocus="autofocus">
+				
+                
+                <button type="submit" class="btn btn-primary btn-lg" onclick="limpar()" >Submeter</button>
+                
+            </div>
+            </form>
+            
+        </div>
+    </div>
+	
+	
+    <IFRAME style="display:none" name="hidden-form"></IFRAME>
+</body>
+</html>
+
